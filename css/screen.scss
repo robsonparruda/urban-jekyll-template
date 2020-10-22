@@ -1,6 +1,3 @@
----
----
-
 $pattern: "{{ site.baseurl }}/images/pattern.png";
 $screenshot-buttons: "{{ site.baseurl }}/images/screenshot-buttons.svg";
 
@@ -16,7 +13,7 @@ $desktop: "(min-width: 768px)";
 
 $section-rotation: 5deg;
 
-@import "elements";
+@import "elements"; 
 @import "layout";
 @import "contact";
 @import "blog";
