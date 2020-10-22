@@ -62,7 +62,7 @@ nav {
 		font-size: 1rem;
 
 		@media #{$mid-point} {
-			border-bottom: 2px solid rgba(255, 255, 255, 0);
+			border-bottom: 2px solid $brand-color;
 			display: block;
 			padding: 10px;
 		}
@@ -89,7 +89,8 @@ nav {
 		color: #fff;
 
 		@media #{$mid-point} {
-			border-bottom: 2px solid rgba(255, 255, 255, 0.6);
+			border-bottom: 2px solid $secondary-brand-color;
+			color: $secondary-brand-color;
 			display: block;
 			padding: 10px;
 		}

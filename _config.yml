@@ -1,4 +1,4 @@
-title: Urban Template
+title: SOLUÇÕES EMPRESARIAIS
 url: "https://jsahtest.herokuapp.com/"
 baseurl:
 google_analytics_key: UA-180939230-1
@@ -6,19 +6,19 @@ google_maps_javascript_api_key:
 disqus_shortname:
 
 # Default description in social shares for the jekyll-seo-tag gem
-description: Jekyll template with example content for a web agency.
+description: JSAH SOLUÇÕES EMPRESARIAIS, certidões imobiliarias, certidões, imobiliárias, administrativas, forenses, consultoria fiscal, tributaria.
 
 # Author details for the jekyll-seo-tag gem
 author:
-  name:
-  email:
-  twitter: # twitter username without the @ symbol
+  name: JSAH SOLUÇÕES EMPRESARIAIS
+  email: contato@jsah.com.br
+  twitter:
 
 # Social details for the jekyll-seo-tag gem
 social:
-  name: Urban Template
+  name: JSAH SOLUÇÕES EMPRESARIAIS
   links:
-    - https://github.com/CloudCannon/urban-jekyll-template
+    - https://br.linkedin.com/in/jsah-solu%C3%A7%C3%B5es-empresariais-ltda-789ab41b8
 
 timezone: Etc/UTC
 
@@ -97,4 +97,3 @@ social_icons:
   - Tumblr
   - Twitter
   - YouTube
-  - RSS

@@ -1,23 +1,23 @@
-- title: Pages
+- title: Paginas
   links:
     - name: Home
       link: /
-    - name: Portfolio
-      link: /portfolio/
-    - name: Blog
-      link: /blog/
-    - name: About
+    - name: Sobre
       link: /about/
-    - name: Contact
+    - name: Serviços
+      link: /portfolio/
+    - name: Publicações
+      link: /blog/
+    - name: Contato
       link: /contact/
-- title: Social
+- title: Redes Sociais
   links:
     - name: Facebook
-      link: https://facebook.com/cloudcannon/
+      link: https://facebook.com/
       social_icon: Facebook
       new_window: true
     - name: Twitter
-      link: https://twitter.com/cloudcannon/
+      link: https://twitter.com/
       social_icon: Twitter
       new_window: true
     - name: Instagram
@@ -25,6 +25,6 @@
       social_icon: Instagram
       new_window: true
     - name: LinkedIn
-      link: https://nz.linkedin.com/company/cloud-cannon
+      link: https://br.linkedin.com/in/jsah-solu%C3%A7%C3%B5es-empresariais-ltda-789ab41b8
       social_icon: LinkedIn
       new_window: true
