@@ -62,7 +62,7 @@ nav {
 		font-size: 1rem;
 
 		@media #{$mid-point} {
-			border-bottom: 2px solid $brand-color;
+			border-bottom: 2px solid #201E57;
 			display: block;
 			padding: 10px;
 		}
@@ -89,8 +89,8 @@ nav {
 		color: #fff;
 
 		@media #{$mid-point} {
-			border-bottom: 2px solid $secondary-brand-color;
-			color: $secondary-brand-color;
+			border-bottom: 2px solid #F07D00;
+			color: #F07D00;
 			display: block;
 			padding: 10px;
 		}
@@ -103,7 +103,7 @@ nav {
 
 			&:hover {
 				background: #fff;
-				color: $brand-color;
+				color: #201E57;
 			}
 		}
 	}

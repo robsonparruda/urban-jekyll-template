@@ -1,10 +1,13 @@
+---
+---
+
 $pattern: "{{ site.baseurl }}/images/pattern.png";
 $screenshot-buttons: "{{ site.baseurl }}/images/screenshot-buttons.svg";
 
 $brand-color: #201E57;
 $html-background-color: #222;
 $secondary-brand-color: #F07D00;
-$middle-gradient-color: mix($brand-color, $secondary-brand-color, 95%);
+$middle-gradient-color: mix(#201E57, #F07D00, 95%);
 
 // Breakpoints
 $tablet: "(min-width: 450px)";
@@ -13,7 +16,7 @@ $desktop: "(min-width: 768px)";
 
 $section-rotation: 5deg;
 
-@import "elements"; 
+@import "elements";
 @import "layout";
 @import "contact";
 @import "blog";
