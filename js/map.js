@@ -139,3 +139,4 @@ function init_map() {
 	});
 }
 google.maps.event.addDomListener(window, 'load', init_map);
+window.onscroll = function() {scrollFunction()};

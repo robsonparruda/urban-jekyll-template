@@ -95,7 +95,7 @@ section {
 		}
 
 		p {
-			font-size: 1.8rem;
+			font-size: 1.6rem;
 			color: #fff;
 		}
 
@@ -114,16 +114,17 @@ section {
 	padding: 13px 38px;
 	border-radius: 3px;
 	display: inline-block;
-	color: #201E57;
+	color: #fff;
 	text-decoration: none;
 	cursor: pointer;
 	margin: 20px 0 0 0;
-	border: 1px solid #fff;
-	background: #fff;
+	border: 1px solid #F07D00;
+	background: #F07D00;
 	text-decoration: none !important;
 
 	&:hover {
-		background: rgba(255, 255, 255, 0.3);
+		background: #F07D00;
+		opacity: 0.85;
 		color: #fff;
 	}
 
@@ -244,10 +245,54 @@ section {
 }
 
 .patterned {
-	background: #222 url($pattern);
+	background: #222 url($pattern-white);
 
 	&,
 	p {
-		color: #fefefe;
+		color: #54595F;
 	}
 }
+
+@media #{$mid-point} {
+	.mission {
+		display: flex;
+	}
+	
+	.mission li{
+		width: 22vw;
+    	margin-right: 10px;
+    	margin-left: 10px;
+	}
+	
+}
+
+.mission li img{
+	width: 8rem;
+}
+
+.mission p {
+	color: #fff;
+}
+
+.alternate-mission {
+	background: $secondary-brand-color;
+}
+
+.center {
+	color: #fff;
+}
+
+#whatsapp {
+	display: none;
+	position: fixed;
+	bottom: 20px;
+	right: 30px;
+	z-index: 9999;
+	border: none;
+	outline: none;
+	background-color: red;
+	color: white;
+	cursor: pointer;
+	padding: 15px;
+	border-radius: 10px;
+  }

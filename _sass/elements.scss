@@ -12,7 +12,7 @@ body {
 }
 
 a {
-	color: #201E57;
+	color: $brand-color;
 	text-decoration: none;
 }
 
@@ -62,4 +62,14 @@ pre {
 	padding: 10px;
 	background: #eee;
 	border-radius: 2px;
+}
+
+hr {
+	background-color: #F07D00;
+	height: 1px;
+	border: 0; 
+}
+
+.services:hover {
+	color: #F07D00;
 }

@@ -8,6 +8,7 @@ footer {
 	&,
 	a {
 		color: #999;
+		fill: #999;
 	}
 
 	h2 {
@@ -27,6 +28,19 @@ footer {
 
 		&:hover {
 			color: #fff;
+			fill: #fff;
+		}
+		
+		svg path {
+			stop-color: "#20b038";
+		}
+
+		&:hover svg path {
+			fill: #fff;
+		}
+
+		&:hover .black {
+			fill: #000000;
 		}
 	}
 
