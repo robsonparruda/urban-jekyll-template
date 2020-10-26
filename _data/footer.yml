@@ -29,6 +29,6 @@
       social_icon: LinkedIn
       new_window: true
     - name: Whatsapp
-      link: https://api.whatsapp.com/send?phone=5511991344652
+      link: https://api.whatsapp.com/send?phone=5548912345678&text=Olá!%20Acessando%20seu%20site%20estou%20entrando%20em%20contato%20preciso%20de%20seus%20serviços.
       social_icon: Whatsapp
       new_window: true
