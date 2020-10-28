@@ -5,8 +5,10 @@ layout: default
 	<div class="container" {% if page.full_width %}style="max-width: 100%"{% endif %}>
 		{% if page.heading %}
 			<h2>{{ page.heading }}</h2>
+			<hr>
 		{% elsif page.title %}
 			<h2>{{ page.title }}</h2>
+			<hr>
 		{% endif %}
 		{% if page.subtitle %}
 			<p class="subtext">{{ page.subtitle }}</p>

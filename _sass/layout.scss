@@ -57,7 +57,6 @@ header {
 	box-shadow: 0 1px 0 #ccc,0 1px 1px #eee;
 	border-radius: 2px;
 	padding: 20px 0 0;
-	background: url($screenshot-buttons) 4px 4px no-repeat #DDD;
 	box-shadow: 0px 1px 2px rgba(0,0,0,0.1);
 }
 
@@ -225,6 +224,7 @@ section {
 	.name {
 		font-size: 1.3rem;
 		color: #201E57;
+		display: none;
 	}
 
 	.position {
@@ -296,4 +296,17 @@ section {
 	cursor: pointer;
 	padding: 15px;
 	border-radius: 10px;
-  }
+}
+
+.call {
+	text-align: left;
+	font-size: 2rem;
+}
+
+.left {
+	text-align: left;
+}
+
+.alternate-call {
+	background: $brand-color;
+}
